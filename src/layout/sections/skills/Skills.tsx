@@ -1,13 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FlexWrapper } from '../../../components/FlexWrapper';
-import { Icon } from '../../../components/icon/Icon';
 import {SectionTitle} from '../../../components/SectionTitle';
 import { Skill } from './skill/Skill';
+import { Container } from '../../../components/Container';
 
 export const Skills = () => {
     return (
         <StyledSkills>
+            <Container>
             <SectionTitle>My Skills</SectionTitle>
             <FlexWrapper wrap='wrap' justify='space-between'>
                 <Skill iconId={"code"} 
@@ -33,11 +34,9 @@ export const Skills = () => {
                 title='Figma'
                 description ={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error atque amet rem nihil."}/>
             </FlexWrapper>
+            </Container> 
         </StyledSkills>
     );
 };
 
-const StyledSkills = styled.section`
-    background-color: #ffdae0;
-    min-height: 100vh;
-`
+const StyledSkills = styled.section``

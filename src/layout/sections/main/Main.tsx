@@ -39,7 +39,7 @@ z-index:0;
     content:"";
     width:360px;
     height: 470px;
-    border:5px solid ${theme.colors.accent};\
+    border:5px solid ${theme.colors.accent};
 
     position:absolute;
     top:-24px;
