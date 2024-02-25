@@ -26,6 +26,7 @@ body {
 
 a {
     text-decoration: none;
+    color: ${theme.colors.font};
 }
 
 ul {
@@ -35,6 +36,8 @@ ul {
 button {
     border-color: unset;
     border: none;
+    cursor: pointer;
+    color: ${theme.colors.font};
 }
 
 section {
@@ -47,5 +50,19 @@ section:nth-of-type(odd){
 
 section:nth-of-type(even){
   background-color: ${theme.colors.secondaryBg};
+}
+
+h3 {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height:1.4;
 }
 `
