@@ -18,7 +18,7 @@ export const Works = () => {
             <Container>
                 <SectionTitle>My Works</SectionTitle>
                 <TabMenu menuItems={worksItems}></TabMenu>
-                <FlexWrapper justify={"space-between"} >
+                <FlexWrapper justify={"space-between"} align={"flex-start"}>
                     <Work title={"Social Network"} 
                     src={socialImg}
                     text={"Lorem ipsumLorem ipsum kekum pekum bupum lolololoLorem ipsum kekum pekum bupuum lolololoLorem ipsum kekum pekum bum lolololoLorem ipsum kekum pekum bum lolololoLorem ipsum kekum pekum bum lolololoLorem ipsum kekum pekum bm lolololo"}/>
