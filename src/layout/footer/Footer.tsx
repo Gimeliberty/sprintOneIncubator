@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Icon } from '../../components/icon/Icon';
 import { FlexWrapper } from '../../components/FlexWrapper';
+import { theme } from '../../styles/Theme';
 
 export const Footer = () => {
     return (
@@ -42,8 +43,8 @@ export const Footer = () => {
 };
 
 const StyledFooter = styled.footer`
-    background-color: #e98000;
-    min-height: 20vh;
+    background-color: ${theme.colors.primaryBg};
+    padding: 40px 0;
 `
 const Name = styled.span`
     

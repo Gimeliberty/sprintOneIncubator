@@ -57,4 +57,8 @@ const Field = styled.input `
         color: ${theme.colors.placeholderColor};
         text-transform: capitalize;
     }
+
+    &:focus-visible {
+        outline: 1px solid ${theme.colors.borderColor};
+    }
 `
