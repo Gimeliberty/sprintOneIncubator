@@ -32,7 +32,12 @@ const StyledForm = styled.form `
     align-items: center;
     gap: 16px;
     margin: 0 auto;
+    
 
+    textarea {
+        resize: none;
+        height: 155px;
+    }
 `
 const Field = styled.input `
     width: 100%;
@@ -40,11 +45,16 @@ const Field = styled.input `
     background-color: ${theme.colors.secondaryBg};
     padding: 8px;
 
-    color: #495057;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 0.6px;
+
+    color: ${theme.colors.font};
+
+    &::placeholder {
+        color: ${theme.colors.placeholderColor};
+        text-transform: capitalize;
+    }
 `

@@ -9,6 +9,8 @@ export const theme = {
         
         font: "#FFFFFF",
 
-        borderColor: "#4A4A4A"
+        borderColor: "#4A4A4A",
+
+        placeholderColor: "#495057"
     }
 }
