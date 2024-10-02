@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sprintOneIncubator/static/css/main.f855e6bc.css",
-    "main.js": "/sprintOneIncubator/static/js/main.39a1f91f.js",
+    "main.js": "/sprintOneIncubator/static/js/main.464b7fa2.js",
     "static/js/787.d55e0c36.chunk.js": "/sprintOneIncubator/static/js/787.d55e0c36.chunk.js",
     "index.html": "/sprintOneIncubator/index.html",
     "main.f855e6bc.css.map": "/sprintOneIncubator/static/css/main.f855e6bc.css.map",
-    "main.39a1f91f.js.map": "/sprintOneIncubator/static/js/main.39a1f91f.js.map",
+    "main.464b7fa2.js.map": "/sprintOneIncubator/static/js/main.464b7fa2.js.map",
     "787.d55e0c36.chunk.js.map": "/sprintOneIncubator/static/js/787.d55e0c36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.39a1f91f.js"
+    "static/js/main.464b7fa2.js"
   ]
 }
